@@ -12,10 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: HomePage(),
-      theme: ThemeData(
-        textTheme: TextTheme(
-          bodyText2: TextStyle(
-            fontSize: 35))),
+     
     );
   }
 }
